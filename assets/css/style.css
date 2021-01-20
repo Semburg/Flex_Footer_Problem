@@ -1,0 +1,101 @@
+body, h1, h2, h3, h4, p{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p, img{
+    display: inline-block;
+}
+
+p{
+    opacity: .8;
+}
+img{
+    width: 20px;
+}
+
+.wrapper{
+    /* padding-left: 40px; */
+    display: flex;
+    justify-content: start;
+}
+article{
+    width: 50%;
+    padding-top: 20px;
+}
+
+h4{
+    padding-bottom: 20%;
+}
+
+h1{
+    padding-bottom: 5%;
+}
+
+.page2{
+    height: 85vh;
+    background: url("../img/104_2_dieter_rams_the_jf_chen_collection_july_2018_artur_braun_and_fritz_eichler_sk_25_radio__wright_auction.jpg")
+    center/cover no-repeat ;
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(242,242,242);
+    border: 1px black dashed;
+    border: 1px black dashed;
+    
+}
+
+footer section{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px black dashed;
+}
+
+footer section div{
+    width: 150px;
+}
+
+/* ?          FOOTER FLEXBOX ... */
+
+.quadrt{
+    display: inline-block;
+    /* height: 100%;
+    width: 100%; */
+    width: 100%;
+    border: 1px red solid;
+}
+
+.wrapper_2{
+    /* margin-left: 51px; */
+    /* height: 100%; */
+    /* width: 140px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border: 1px gold solid;
+}
+
+
+@media (max-width: 768px) { 
+    .wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+        /* flex-wrap: wrap; */
+    }
+
+    .page1{
+        height: 100vh;
+        width: 100%;
+    }
+    .page2{
+        height: 85vh;
+        width: 100%;
+    }
+
+    
+
+
+}
